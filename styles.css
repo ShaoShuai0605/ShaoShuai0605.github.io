@@ -324,7 +324,6 @@ button:focus-visible {
 
 .intro-copy p,
 .contact-copy,
-.section-note,
 .education-card p:last-child,
 .pub-note {
   color: var(--muted);
@@ -351,19 +350,8 @@ button:focus-visible {
   font-weight: 500;
 }
 
-.two-col-head {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(260px, 420px);
-  gap: 24px;
-  align-items: end;
-}
-
 .section-head {
   margin-bottom: 28px;
-}
-
-.section-note {
-  margin: 0 0 28px;
 }
 
 .education-grid {
@@ -552,7 +540,6 @@ button:focus-visible {
   .summary-grid,
   .education-grid,
   .info-grid,
-  .two-col-head,
   .contact-grid,
   .intro-grid {
     grid-template-columns: 1fr;
