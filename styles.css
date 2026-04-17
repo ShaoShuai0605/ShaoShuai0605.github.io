@@ -476,6 +476,58 @@ button:focus-visible {
   gap: 16px;
 }
 
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.project-card {
+  padding: 24px;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  background: var(--paper);
+  box-shadow: var(--shadow-card);
+}
+
+.project-kicker {
+  margin: 0 0 12px;
+  color: var(--accent-deep);
+  font-family: var(--mono);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.project-card h3 {
+  margin: 0;
+  font-size: 22px;
+  line-height: 1.25;
+}
+
+.project-card p:last-of-type {
+  margin: 12px 0 0;
+  color: var(--muted);
+}
+
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  margin-top: 16px;
+}
+
+.project-links a {
+  color: var(--info);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.project-links a:hover {
+  color: #1f57b4;
+}
+
 .publication {
   display: grid;
   grid-template-columns: 180px minmax(0, 1fr);
@@ -577,6 +629,7 @@ button:focus-visible {
 @media (max-width: 1040px) {
   .summary-grid,
   .education-grid,
+  .project-grid,
   .info-grid,
   .contact-grid,
   .intro-grid {
