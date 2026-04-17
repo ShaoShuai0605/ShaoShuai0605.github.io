@@ -277,6 +277,44 @@ button:focus-visible {
   padding: 76px 0;
 }
 
+.news-list {
+  display: grid;
+  gap: 18px;
+}
+
+.news-item {
+  display: grid;
+  grid-template-columns: 180px minmax(0, 1fr);
+  gap: 22px;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+}
+
+.news-item:first-child {
+  padding-top: 0;
+  border-top: none;
+}
+
+.news-date {
+  color: var(--accent-deep);
+  font-family: var(--mono);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.news-body h3 {
+  margin: 0;
+  font-size: 22px;
+  line-height: 1.25;
+}
+
+.news-body p {
+  margin: 12px 0 0;
+  color: var(--muted);
+}
+
 .surface {
   background: var(--mist);
   border-top: 1px solid var(--line);
@@ -550,6 +588,7 @@ button:focus-visible {
   }
 
   .experience-item,
+  .news-item,
   .publication {
     grid-template-columns: 1fr;
   }
