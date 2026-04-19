@@ -339,8 +339,9 @@ button:focus-visible {
 
 .profile-figure img {
   width: 100%;
-  aspect-ratio: 1;
+  aspect-ratio: 4 / 5;
   object-fit: cover;
+  object-position: center top;
   border-radius: 8px;
   border: 1px solid var(--line);
   box-shadow: var(--shadow-soft);
