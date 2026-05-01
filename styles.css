@@ -162,6 +162,10 @@ button:focus-visible {
   color: var(--muted);
 }
 
+.hero-copy + .hero-copy {
+  margin-top: 14px;
+}
+
 .hero-actions,
 .contact-actions {
   display: flex;
@@ -239,6 +243,19 @@ button:focus-visible {
   box-shadow: var(--shadow-card);
 }
 
+.hero-portrait {
+  margin: 0 0 22px;
+}
+
+.hero-portrait img {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+}
+
 .hero-side p {
   margin: 0;
 }
@@ -275,6 +292,11 @@ button:focus-visible {
 
 .hero-side-list li + li {
   margin-top: 10px;
+}
+
+.hero-facts {
+  display: grid;
+  gap: 16px;
 }
 
 .hero-inline-links {
@@ -378,30 +400,10 @@ button:focus-visible {
   border-bottom: 1px solid var(--line);
 }
 
-.intro-grid,
 .education-grid,
 .contact-grid {
   display: grid;
   gap: 28px;
-}
-
-.intro-grid {
-  grid-template-columns: minmax(220px, 300px) minmax(0, 1fr);
-  align-items: center;
-}
-
-.profile-figure {
-  margin: 0;
-}
-
-.profile-figure img {
-  width: 100%;
-  aspect-ratio: 4 / 5;
-  object-fit: cover;
-  object-position: center top;
-  border-radius: 8px;
-  border: 1px solid var(--line);
-  box-shadow: var(--shadow-soft);
 }
 
 .section-label {
@@ -409,7 +411,6 @@ button:focus-visible {
   color: var(--soft);
 }
 
-.intro-copy h2,
 .section-head h2,
 .contact-grid h2 {
   margin: 0;
@@ -418,20 +419,10 @@ button:focus-visible {
   letter-spacing: -0.03em;
 }
 
-.intro-copy p,
 .contact-copy,
 .education-card p:last-child,
 .pub-note {
   color: var(--muted);
-}
-
-.fact-list {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 16px;
-  margin-top: 24px;
-  padding-top: 20px;
-  border-top: 1px solid var(--line);
 }
 
 .fact-term {
@@ -690,12 +681,7 @@ button:focus-visible {
   .education-grid,
   .project-grid,
   .info-grid,
-  .contact-grid,
-  .intro-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .fact-list {
+  .contact-grid {
     grid-template-columns: 1fr;
   }
 
@@ -749,7 +735,6 @@ button:focus-visible {
     font-size: 20px;
   }
 
-  .intro-copy h2,
   .section-head h2,
   .contact-grid h2 {
     font-size: 28px;
