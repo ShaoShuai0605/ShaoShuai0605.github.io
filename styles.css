@@ -293,25 +293,6 @@ button:focus-visible {
   gap: 16px;
 }
 
-.hero-inline-links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 14px 18px;
-  margin-top: 22px;
-  padding-top: 22px;
-  border-top: 1px solid var(--line);
-}
-
-.hero-inline-links a {
-  color: var(--info);
-  font-weight: 600;
-  text-decoration: none;
-}
-
-.hero-inline-links a:hover {
-  color: #1f57b4;
-}
-
 .summary-band {
   padding: 18px 0 0;
 }
