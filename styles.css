@@ -103,7 +103,7 @@ button:focus-visible {
 }
 
 .hero {
-  padding: 120px 0 40px;
+  padding: 108px 0 32px;
   color: var(--ink);
   background:
     linear-gradient(180deg, rgba(212, 250, 232, 0.42) 0%, rgba(255, 255, 255, 0.96) 48%, rgba(255, 255, 255, 1) 100%);
@@ -113,7 +113,7 @@ button:focus-visible {
 .hero-layout {
   display: grid;
   grid-template-columns: minmax(0, 1.45fr) minmax(280px, 360px);
-  gap: 28px;
+  gap: 24px;
   align-items: end;
 }
 
@@ -319,7 +319,7 @@ button:focus-visible {
 }
 
 .summary-band {
-  padding: 24px 0 0;
+  padding: 18px 0 0;
 }
 
 .summary-grid {
@@ -329,7 +329,7 @@ button:focus-visible {
 }
 
 .summary-item {
-  padding: 22px 24px;
+  padding: 20px 22px;
   border-radius: 8px;
   border: 1px solid var(--line);
   background: var(--paper);
@@ -343,12 +343,12 @@ button:focus-visible {
 
 .summary-item h2 {
   margin: 0;
-  font-size: 24px;
+  font-size: 22px;
   line-height: 1.15;
 }
 
 .summary-item p:last-child {
-  margin: 12px 0 0;
+  margin: 10px 0 0;
   color: var(--muted);
 }
 
@@ -711,7 +711,7 @@ button:focus-visible {
   }
 
   .hero {
-    padding: 104px 0 28px;
+    padding: 96px 0 24px;
   }
 
   .hero h1 {
