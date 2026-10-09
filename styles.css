@@ -569,6 +569,14 @@ button:focus-visible {
   background: var(--paper);
 }
 
+.pub-badges {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-self: start;
+  gap: 8px;
+}
+
 .pub-badge {
   align-self: start;
   width: fit-content;
@@ -576,6 +584,12 @@ button:focus-visible {
   border-radius: 8px;
   background: var(--accent-wash);
   color: var(--accent-deep);
+}
+
+.pub-badge-oral {
+  background: #075c3d;
+  color: var(--paper);
+  font-weight: 700;
 }
 
 .pub-main h3 {
