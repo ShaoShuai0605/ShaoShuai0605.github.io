@@ -160,6 +160,13 @@ button:focus-visible {
   margin-top: 14px;
 }
 
+.hero-philosophy strong {
+  display: block;
+  margin-bottom: 6px;
+  color: var(--ink);
+  font-weight: 600;
+}
+
 .hero-actions,
 .contact-actions {
   display: flex;
